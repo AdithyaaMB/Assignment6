@@ -1,0 +1,236 @@
+
+/* author: Adithya MB
+   Date : 17/12/2021*/
+*   
+{
+	margin:0;
+	padding: 0;
+}
+/*container1 start*/
+h1
+{
+	text-align: center;
+	color: white;
+
+}
+.container1{
+	background-color: black;
+	color: white;
+	padding: 100px;
+	background-color:#333;
+	text-align: center;
+
+}
+.container1 p {
+	font-size: 23px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.container1 a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	border: solid 3px #00f;
+	padding: 20px;
+	border-radius: 5px;
+
+}
+a:hover{
+	background-color: #00f;
+
+}
+/* container1 enden*/
+/* container2 started*/
+.container2 {
+	text-align: center;
+	padding:100px;  
+}
+.container2 h1{
+	color:rgba(0,0,0,0.8);
+	padding-bottom: 30px;
+	/*font-size: */
+}
+.container2 p{
+	text-align: center;
+	color:rgba(0,0,0,0.8)
+	padding: 20px;
+	font-size: 24px;
+}
+/* container2 ended*/
+/* img started */
+.container3 h1{
+	color: black;
+	font-size: 30px;
+	padding: 30px;
+
+}
+.container3  {
+	
+	font-size: 24px;
+	text-align: center;
+	padding: 100px;
+
+	
+	
+}
+.row{
+	display: flex;
+	font-size: 20px;
+	background-color: #333;
+	padding: 20px;
+
+
+}
+
+.row h1 {
+	color: black;
+	font-size: 25px;
+}
+.col{
+	background-color: white;
+	padding: 30px;
+	margin: 45px;
+	border-radius: 5px;
+	width: 30%;
+	font-size: 20px;
+	text-align: center;
+	height: 300px;
+
+
+}
+.col img{
+	width: 100%;
+}
+.row h1 {
+	margin-top: 6px;
+	margin-bottom: 5px;
+}
+/* img ended */
+
+
+/*ended start*/
+.ended h1{
+	color: black;
+
+
+}
+.ended{
+	display: flex;
+	font-size: 20px;
+	height: 350px;
+	
+
+
+	
+
+}
+.contact{
+	padding-left:0;
+	padding-bottom: 45px;
+	padding-top: 50px;
+	padding-right: 0;
+	text-align: center;
+	background-color: #0d6efd;
+}
+.about{
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	padding-left:0;
+	padding-bottom: 45px;
+	padding-top: 50px;
+	padding-right: 0;
+}
+.about h1{
+	color: #fff;
+}
+.contact div{
+	padding: 30px;
+}
+.about div {
+	padding: 30px;
+	t
+}
+/*ended ..*/
+@media only screen and (max-width: 576px) {
+
+ body{
+ 	margin: 0%;
+ }
+ .container1{
+	
+	width: 100%;
+	padding: 70px;
+
+}
+.container1 p{
+	font-size:30px;
+}
+.container2 {
+	padding:50px;
+	width: 100%;
+
+}
+.container2 p{
+	font-size: 30px;
+}
+.container3 p{
+	font-size: 28px;
+}
+ .row{
+ 	display: block;
+ 	width: 100%;
+ 	padding: 0%;
+ 	margin: 0%;
+ 	padding-right: 40%;
+ 	padding-bottom: 10%;
+ 	padding-top: 10%;
+
+ }
+ .col{
+
+	width: 100%;
+	margin-bottom: 5px;
+	margin: 10%;
+	
+
+ 
+ }
+ .container3{
+	
+	font-size: 24px;
+	text-align: center;
+	padding: 50px;
+	width: 100%;
+
+
+	}	
+
+.ended{
+	display:block;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 28px;
+
+	}
+.contact{
+	width: 100%;
+	padding: 50px;
+}
+
+
+.about{
+
+	padding: 50px;
+width: 100%;
+}
+.row p{
+	font-size:28px;
+}
+
+
+	
+
+
+
